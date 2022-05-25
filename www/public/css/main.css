@@ -1,0 +1,84 @@
+/*--------------------------------------------------------------
+# Searchbar Menu
+--------------------------------------------------------------*/
+
+.searchnav{
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+    border-radius: 5px;
+    margin: 0px 100px;
+    padding: 20px 10px;
+    background-color: #b4bac23d;
+    display: flex;
+}
+
+.searchnav select,
+.searchnav input{
+    width: 100%;
+    height: 42px;
+}
+.searchnav .col-md-3{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.searchnav .get-started-btn{
+    margin-left: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Mobile Navigation */
+
+.carousel {
+    --current-slide: 0;
+    /* we set position relative so absolute position works properly for the buttons */
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .carousel-button {
+    /* vertically centering the buttons */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  
+    /* basic styling */
+    padding: 0;
+    margin: 0.5rem;
+    border-radius: 50%;
+    background-color: transparent;
+    border: none;
+  
+    font-size: 1.5rem;
+    cursor: pointer;
+  
+    transition: color 0.1s;
+  }
+  
+  .carousel-button:hover {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .carousel-button_next {
+    /* The "next slide button" will be at the right */
+    right: 0;
+  }
+  
+  .slides {
+    display: flex;
+    transition: transform 0.5s;
+    transform: translateX(calc(-100% * var(--current-slide)));
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .carousel-button {
+      font-size: 2rem;
+      margin: 1rem;
+    }
+  }
+  

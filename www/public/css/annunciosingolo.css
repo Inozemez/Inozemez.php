@@ -1,0 +1,36 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+.contact .info i {
+    font-size: 20px;
+    color: #339999;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #e3f0fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* [class*=" icofont-"], [class^=icofont-] {
+    font-family: IcoFont!important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    line-height: 1;
+    -webkit-font-feature-settings: "liga";
+    -webkit-font-smoothing: antialiased; */
+
+    .card-img-top {
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        width: 102%;
+    }

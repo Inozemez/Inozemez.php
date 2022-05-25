@@ -1,0 +1,96 @@
+/*=========================================*/
+  /*================= basic =================*/
+  /*=========================================*/
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+  body {
+    font: 16px 'lato', sans-serif;
+    min-width: 300px;
+    background: #fff;
+    color: #959494;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
+  }
+  .wrapper {
+    display: table-row;
+    height: 100%;
+  }
+  .wrapper-in {
+    overflow: hidden;
+    overflow-y: auto;
+  }
+  .container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px;
+  }
+  .container:before,
+  .container:after {
+    content: '';
+    clear: both;
+    display: table;
+  }
+  input:focus,
+  textarea:focus {
+    outline: none;
+  }
+  select:focus {
+    outline: none;
+    border: none;
+  }
+  .clr:before,
+  .clr:after {
+    content: '';
+    clear: both;
+    display: table;
+  }
+  .upcase {
+    text-transform: uppercase;
+  }
+/*--------------------------------------------------------------
+# Research content 
+--------------------------------------------------------------*/
+#research-content .container {
+   margin: 0 auto;
+   max-width: 1200px;
+   padding: 0 15px;
+   padding-top: 0px;
+   padding-right: 15px;
+   padding-bottom: 0px;
+   padding-left: 15px;
+}
+.div {
+    display: block;
+}
+
+/*=========================================*/
+  /*================= start =================*/
+  /*=========================================*/
+
+.col-wrp {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+
+
+/*--------------------------------------------------------------
+# Flashmessages 
+--------------------------------------------------------------*/
+
+.forcemessages-inline{
+    clear:both;width:auto;
+    }
